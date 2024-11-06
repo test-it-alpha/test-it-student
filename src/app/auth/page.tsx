@@ -7,7 +7,7 @@ import { Loader2, LockKeyhole, LucideProps, Mail } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-export const defaultInputIconProps: LucideProps = {
+const defaultInputIconProps: LucideProps = {
   size: 16 as const,
   className: "text-muted-foreground ml-3" as const,
 };
