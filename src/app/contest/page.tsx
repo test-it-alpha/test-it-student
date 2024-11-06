@@ -1,7 +1,7 @@
 import React from "react";
 
-const CodeTest = ({}: { children: React.ReactNode }) => {
-  return <div>You are in the codetest page</div>;
+const Contest = () => {
+  return <div>This page doesn{"'"}t exist.</div>;
 };
 
-export default CodeTest;
+export default Contest;
