@@ -1,0 +1,52 @@
+.mosaic.custom-theme {
+  @apply bg-background;
+}
+
+.mosaic.custom-theme .mosaic-window,
+.mosaic.custom-theme .mosaic-preview {
+  @apply rounded-lg border border-border;
+}
+
+.mosaic.custom-theme {
+  .mosaic-preview {
+    @apply opacity-50 backdrop-blur-md border border-border;
+  }
+
+  .mosaic-window .mosaic-window-title,
+  .mosaic-preview .mosaic-window-title {
+    @apply text-foreground pl-2 font-semibold text-sm;
+  }
+
+  .mosaic-window .mosaic-window-toolbar,
+  .mosaic-preview .mosaic-window-toolbar {
+    @apply bg-background;
+  }
+
+  .mosaic-window-controls {
+    @apply flex items-center px-1;
+  }
+
+  .mosaic-window .mosaic-window-body,
+  .mosaic-preview .mosaic-window-body {
+    @apply bg-background;
+  }
+
+  .mosaic-split {
+    @apply rounded-full bg-border;
+  }
+  .mosaic-split.-row {
+    margin-left: -1.5px;
+    width: 3px;
+  }
+  .mosaic-split.-column {
+    margin-top: -1.5px;
+    height: 3px;
+  }
+  .mosaic-split:hover {
+    @apply bg-primary;
+  }
+
+  .drop-target-container .drop-target {
+    @apply border-blue-600/60 rounded-lg;
+  }
+}

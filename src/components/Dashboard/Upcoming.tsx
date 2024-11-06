@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { AnimatePresence, motion } from "framer-motion";
 import SlickDialog from "../ui/slick-dialog";
+import Link from "next/link";
 
 type EventObject = {
   title: string;
@@ -55,11 +56,11 @@ const Event = ({ event }: { event: EventObject }) => {
             >
               Details
             </Button>
-            <a href={`/codetest/${event.id}`} target="_blank" rel="noreferrer">
+            <Link href={`/contest/${event.id}`}>
               <Button size={"sm"}>
                 <ArrowRight />
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </motion.div>
@@ -100,14 +101,9 @@ const Event = ({ event }: { event: EventObject }) => {
             </div>
           </div>
           <div className="w-full flex items-center justify-center mt-8">
-            <a
-              href={`/codetest/${event.id}`}
-              target="_blank"
-              rel="noreferrer"
-              className="w-full"
-            >
+            <Link href={`/contest/${event.id}`} className="w-full">
               <Button className="w-full">Attempt</Button>
-            </a>
+            </Link>
           </div>
         </SlickDialog>
       </AnimatePresence>
