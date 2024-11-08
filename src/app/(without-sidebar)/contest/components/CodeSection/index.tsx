@@ -2,7 +2,7 @@
 
 import CodeInput from "./CodeInput";
 import CodeUtils from "./CodeUtils";
-import { useContestContext } from "../../../context/Contest";
+import { useContestContext } from "../../contexts/Contest";
 import { Mosaic } from "react-mosaic-component";
 
 const TILES = {

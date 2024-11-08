@@ -1,6 +1,6 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { ChevronRight } from "lucide-react";
-import { useContestContext } from "../../../context/Contest";
+import { useContestContext } from "../../contexts/Contest";
 import ProblemStatusIndicator from "../common/ProblemStatusIndicator";
 import ProblemDifficultyIndicator from "../common/ProblemDifficultyIndicator";
 

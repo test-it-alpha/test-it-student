@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import QuestionsList from "./QuestionsList";
-import { useContestContext } from "../../../context/Contest";
+import { useContestContext } from "../../contexts/Contest";
 import QuestionPage from "./QuestionPage";
 
 const QuestionSection = () => {

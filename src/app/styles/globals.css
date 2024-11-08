@@ -93,6 +93,12 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+  body:fullscreen {
+    @apply bg-background text-foreground;
+  }
+  body::backdrop {
+    @apply bg-background text-foreground;
+  }
 }
 
 .monaco-editor {

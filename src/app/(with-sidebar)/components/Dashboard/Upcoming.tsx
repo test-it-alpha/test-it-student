@@ -1,9 +1,9 @@
 "use client";
 import { ArrowRight, Code2, CodeSquare } from "lucide-react";
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "../../../../components/ui/button";
 import { AnimatePresence, motion } from "framer-motion";
-import SlickDialog from "../ui/slick-dialog";
+import SlickDialog from "../../../../components/ui/slick-dialog";
 import Link from "next/link";
 
 type EventObject = {

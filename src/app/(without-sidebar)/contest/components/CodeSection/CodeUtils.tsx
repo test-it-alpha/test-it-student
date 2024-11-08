@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { RotateCcw, Play, Send } from "lucide-react";
-import { useContestContext } from "@/app/contest/context/Contest";
+import { useContestContext } from "@/app/(without-sidebar)/contest/contexts/Contest";
 
 export default function CodeUtils() {
   const { currentQuestionId, questions } = useContestContext();

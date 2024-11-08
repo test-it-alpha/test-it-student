@@ -1,5 +1,5 @@
 import React from "react";
-import { Question } from "../../../context/Contest";
+import { Question } from "../../contexts/Contest";
 import { CheckCircle, Circle, CircleAlert, MinusCircle } from "lucide-react";
 
 const userFriendlyQuestionStatusMap: {
